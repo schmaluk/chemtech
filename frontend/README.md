@@ -24,8 +24,3 @@ yarn run test
 ```
 yarn run lint
 ```
-
-### Run your unit tests
-```
-yarn run test:unit
-```
