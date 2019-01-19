@@ -1,6 +1,9 @@
 import { Router } from 'express';
-import { controller } from './controller';
+import * as controller from './controller';
 
 export const SearchStoreOfferRouter = Router();
 
-SearchStoreOfferRouter.get('/add-store-offer', controller);
+SearchStoreOfferRouter.get(
+  '/search-store-offers',
+  controller.searchStoreOffers
+);

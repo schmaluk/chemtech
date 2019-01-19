@@ -1,6 +1,7 @@
 import { Router } from 'express';
-import { controller } from './controller';
+import * as controller from './controller';
 
 export const AddStoreRouter = Router();
 
-AddStoreRouter.get('/add-store', controller);
+AddStoreRouter.post('/add-store', controller.postNewStore);
+AddStoreRouter.get('/add-store', controller.getStores);

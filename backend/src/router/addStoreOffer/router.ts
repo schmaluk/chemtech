@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { controller } from './controller';
+import * as controller from './controller';
 
 export const AddStoreOfferRouter = Router();
 
-AddStoreOfferRouter.get('/add-store-offer', controller);
+AddStoreOfferRouter.post('/add-store-offer', controller.addStoreOffer);
