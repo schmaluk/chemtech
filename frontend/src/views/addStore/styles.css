@@ -1,8 +1,16 @@
 .form-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+}
+button {
+    margin-top: 10px;
 }
 
 .form {
-    width: 600px;
+    width: 80%;
 }

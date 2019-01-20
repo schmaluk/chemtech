@@ -24,7 +24,7 @@ export class AddStoreOffer extends Component {
                     controlId="formBasicText"
                     validationState={this.getValidationState()}
                 >
-                    <ControlLabel>Biete Lagerräume</ControlLabel>
+                    <ControlLabel>Biete Lagerraum an:</ControlLabel>
                     <FormControl
                         type="text"
                         value={this.state.value}

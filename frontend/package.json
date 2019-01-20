@@ -80,6 +80,7 @@
     "@types/react-bootstrap": "^0.32.15",
     "@types/react-select": "^2.0.11",
     "@types/whatwg-fetch": "0.0.33",
+    "babel-loader": "^8.0.5",
     "typescript": "^3.2.4"
   },
   "jest": {
